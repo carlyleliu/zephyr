@@ -1,0 +1,25 @@
+identifier: stm32_f429ve
+name: ST STM32 F429VE
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 256
+flash: 512
+supported:
+  - arduino_gpio
+  - arduino_i2c
+  - arduino_spi
+  - netif:eth
+  - i2c
+  - spi
+  - gpio
+  - pwm
+  - counter
+  - usb_device
+  - watchdog
+  - adc
+  - dac
+  - dma
