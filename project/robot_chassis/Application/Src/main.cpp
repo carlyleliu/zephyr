@@ -24,7 +24,12 @@ void main(void)
 {
 	printk("system start...\n");
 
-    class PWM pwm1(1);
+    class PWM pwm0(0);
+    pwm0.setDutyCycle(0.5, 0);
+    pwm0.setDutyCycle(0.5, 1);
+    pwm0.setDutyCycle(0.5, 2);
+    pwm0.setDutyCycle(0.5, 3);
+
 
 	while (1) {
 		k_msleep(1);

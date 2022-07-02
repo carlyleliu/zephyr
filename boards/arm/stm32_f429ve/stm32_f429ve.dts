@@ -133,7 +133,7 @@ zephyr_udc0: &usbotg_fs {
 };
 
 &timers1 {
-	st,prescaler = <10000>;
+	st,prescaler = <1>;
 	status = "okay";
 
 	pwm1: pwm {
@@ -144,7 +144,7 @@ zephyr_udc0: &usbotg_fs {
 };
 
 &timers2 {
-	st,prescaler = <10000>;
+	st,prescaler = <1>;
 	status = "okay";
 
 	pwm2: pwm {
@@ -155,7 +155,7 @@ zephyr_udc0: &usbotg_fs {
 };
 
 &timers3 {
-	st,prescaler = <10000>;
+	st,prescaler = <1>;
 	status = "okay";
 
 	pwm3: pwm {
@@ -166,7 +166,7 @@ zephyr_udc0: &usbotg_fs {
 };
 
 &timers8 {
-	st,prescaler = <10000>;
+	st,prescaler = <1>;
 	status = "okay";
 
 	pwm8: pwm {
